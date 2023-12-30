@@ -6,16 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Open the Source File for Reading:
 
-### Step 2: 
- 
-### Step 3: 
+Use the open function with the 'r' mode to open the source file ('data_file.txt') for reading.
+Assign the file object to the variable source.
+### Step 2:
+Read Content from Source File:
 
-### Step 4:  
+Use the read method on the source file object to read the content of the source file.
+Assign the content to the variable content.
+### Step 3:
+Open the Destination File for Writing:
 
-### Step 5: 
+Use the open function with the 'w' mode to open the destination file ('output.txt') for writing.
+Assign the file object to the variable destination.
+### Step 4:
+Write Content to Destination File:
 
-### Step 6: 
+Use the write method on the destination file object to write the content to the destination file.
+### Step 5:
+Print Success Message:
+
+If the file copy operation is successful without errors, print "File copied successfully!".
+### Step 6:
+Read and Print Copied Content:
+
+Open the destination file ('output.txt') for reading.
+Read the content from the destination file and assign it to the variable data.
+Print the copied content using print(f"Copied content:\n{data}").
 
 ## PROGRAM:
 ```python
