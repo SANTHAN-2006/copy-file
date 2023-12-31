@@ -37,6 +37,9 @@ Print the copied content using print(f"Copied content:\n{data}").
 
 ## PROGRAM:
 ```python
+# Program to copy file 1 contents to file 2
+# Developed By : K Santhan Kumar
+# Register Number : 212223240065
 try:
     with open("data_file.txt", 'r') as source:
         content = source.read()
@@ -57,7 +60,7 @@ except Exception as e:
     print(f"An error occurred: {str(e)}")
 ```
 ### OUTPUT:
-![image](https://github.com/SANTHAN-2006/copy-file/assets/80164014/1e16571d-4da1-486e-944e-72e6b8f201f7)
+![image](https://github.com/SANTHAN-2006/copy-file/assets/80164014/ecd77460-6916-41ca-a1aa-5565123a82f6)
 <br>
 ![image](https://github.com/SANTHAN-2006/copy-file/assets/80164014/fc4bd1aa-2bbd-4a15-9c43-ef584e42c0cb)
 <br>
